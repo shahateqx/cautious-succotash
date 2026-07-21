@@ -1,0 +1,6 @@
+.board {
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+  min-height: calc(100vh - 7rem);
+}

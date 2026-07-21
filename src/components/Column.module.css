@@ -1,0 +1,55 @@
+.column {
+  background: #e2e8f0;
+  border-radius: 0.75rem;
+  width: 18rem;
+  min-width: 18rem;
+  display: flex;
+  flex-direction: column;
+  max-height: calc(100vh - 7rem);
+}
+
+.header {
+  padding: 0.875rem 1rem;
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: #475569;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.cardList {
+  flex: 1;
+  padding: 0 0.5rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  overflow-y: auto;
+  min-height: 3rem;
+}
+
+.addForm {
+  padding: 0.5rem;
+}
+
+.addInput {
+  width: 100%;
+  padding: 0.5rem 0.75rem;
+  border: 2px dashed #cbd5e1;
+  border-radius: 0.5rem;
+  font-family: inherit;
+  font-size: 0.875rem;
+  background: transparent;
+  color: #475569;
+  outline: none;
+  transition: border-color 0.15s, background 0.15s;
+}
+
+.addInput:focus {
+  border-color: #6366f1;
+  background: #ffffff;
+  color: #0f172a;
+}
+
+.addInput::placeholder {
+  color: #94a3b8;
+}

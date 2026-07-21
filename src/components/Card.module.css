@@ -1,0 +1,63 @@
+.card {
+  background: #ffffff;
+  border-radius: 0.5rem;
+  padding: 0.625rem 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  cursor: default;
+  touch-action: none;
+}
+
+.dragHandle {
+  cursor: grab;
+  color: #94a3b8;
+  font-size: 1rem;
+  line-height: 1;
+  user-select: none;
+  flex-shrink: 0;
+}
+
+.dragHandle:active {
+  cursor: grabbing;
+}
+
+.title {
+  flex: 1;
+  font-size: 0.875rem;
+  color: #0f172a;
+  word-break: break-word;
+  cursor: text;
+  padding: 0.125rem 0;
+}
+
+.editInput {
+  flex: 1;
+  font-family: inherit;
+  font-size: 0.875rem;
+  padding: 0.125rem 0;
+  border: none;
+  border-bottom: 2px solid #6366f1;
+  outline: none;
+  background: transparent;
+  color: #0f172a;
+}
+
+.deleteBtn {
+  background: none;
+  border: none;
+  color: #94a3b8;
+  cursor: pointer;
+  font-size: 1.125rem;
+  line-height: 1;
+  padding: 0.125rem;
+  flex-shrink: 0;
+  border-radius: 0.25rem;
+  transition: color 0.15s, background 0.15s;
+}
+
+.deleteBtn:hover {
+  color: #ef4444;
+  background: #fef2f2;
+}
